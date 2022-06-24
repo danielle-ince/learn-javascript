@@ -1,9 +1,37 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a89b760e7b.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
-        <h1>index.html</h1>
+        <div class="Count-App__gutter">
+            <div class="Count-App__container">
+                <div class="Count-App__section Count-App__header">
+                    <h1>People Entered:</h1>
+                </div>
+                <div class="Count-App__section Count-App__count">
+                    <div id="count-value">0</div>
+                </div>
+                <div class="Count-App__section Count-App__controls">
+                    <div class="Count-App__count-control">
+                        <button id="count-inc" onClick="incrementCount()"><i class="controls-icon fa-solid fa-plus"></i>Increment</button>
+                        <button id="count-dec" onClick="decrementCount()"><i class="controls-icon fa-solid fa-minus"></i>Decrement</button>
+                    </div>
+                    <div class="Count-App__save-control">
+                        <button id="count-save" onClick="saveCount()"><i class="controls-icon fa-solid fa-floppy-disk"></i>Save</button>
+                    </div>
+                </div>
+                <div class="Count-App__section Count-App__previous-entries hidden">
+                    <div class="Count-App__previous-entries-title">
+                        Previous Entries
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>

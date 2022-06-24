@@ -1,4 +1,133 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
+
+h1 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible { 
+    display: block;
+}
+
+.Count-App__gutter {
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    min-width: 400px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.Count-App__container {
+    border: 1px solid #fd9e9f;
+    background: #feb7b7;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    color: #353535;
+}
+
+.Count-App__section {
+    margin: 10px 0;
+}
+
+.Count-App__header {
+    text-transform: uppercase;
+}
+
+.Count-App__count {
+    font-size: 2.5em;
+}
+
+.Count-App__controls {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls-icon {
+    margin: 0 5px;
+}
+
+.Count-App__controls button {
+    padding: 10px 20px;
+    font-size: .65em;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: #fd9e9f;
+    border-width: 0;
+    border-radius: 2px;
+}
+
+.Count-App__controls button:hover {
+    background-color: #fd8586;
+}
+
+.Count-App__count-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.Count-App__count-control button {
+    width: 48%;
+}
+
+.Count-App__save-control {
+    margin: 5px 0;
+}
+
+.Count-App__save-control button {
+    width: 100%;
+}
+
+.Count-App__previous-entries {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .5px;
+}
+
+.Count-App__previous-entries-title {
+    font-size: 0.85em;
+}
+
+.Count-App__previous-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-weight: 200;
+    font-size: .75em;
+}
+
+.Count-App__previous-entry div {
+    margin: 0 5px;
+    min-width: 35px;
+}
+
+
+ /* fd8586 */
